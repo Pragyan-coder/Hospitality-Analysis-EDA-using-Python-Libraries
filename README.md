@@ -37,13 +37,14 @@ The company’s Booking Database is the main data source and stores all records 
 - Loaded the required datasets into the notebook using ‘pd.read_csv’
 - Got detailed understanding of the data using ‘df_describe(), info(), value_counts(), unique(), shape(), etc.
 3. Data Cleaning & Exploration (EDA):
-- The bookings_dataset contained (-ve) & extreme values that were corrected using ‘abs()’ absolute values, one anomalous booking () was dropped, and five extreme records were removed as outliers.
+- The bookings_dataset contained (-ve) & extreme values that were corrected using ‘abs()’ absolute values
+- One anomalous booking () was dropped
+- Five extreme records were removed as outliers.
 - Used techniques like groupby(), replace(), drop(), isnull(), loc()
 4. Data Transformation:
 -	Used techniques like merge(), abs(), sum(),
 -	Created ‘Occupancy Percentage’ column to calculate successful bookings and expressed as a percentage for easy comparison across rooms, properties, and cities.
-6.	Generating Insights  using ‘Matplotlib’ - plot(), bar, pie chart, etc.
-
+5. Generating Insights using ‘Matplotlib’- plot(), bar, pie chart, etc.
 
 ## Author & Contact
 👩‍💻 Author: Pragyan Saikia
