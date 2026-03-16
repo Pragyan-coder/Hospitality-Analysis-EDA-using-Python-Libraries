@@ -18,6 +18,7 @@ As a strategic move, the management of ‘Boulevard Hotels’ wants to onboard a
 The company’s Booking Database is the main data source and stores all records & vital documents. Data Engineers joined our team to help build an ETL pipeline to extract and transfer the required data to a different secure Data Warehouse. From there, they generated CSV files filled with up-to-date data. 
 💡Process Used: OLTP & OLAP
 
+![Alt text](OLAP.png)
 
 -	Records extracted: 1,34,591 rows of records
 
